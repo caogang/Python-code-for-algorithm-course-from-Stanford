@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created by MarvinCao on 2016/8/22.
+Complexity : O(nlogn)
 """
 from time import clock
 import random
