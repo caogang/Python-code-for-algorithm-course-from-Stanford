@@ -54,4 +54,4 @@ calculate ended
 finish = clock()
 
 print '%d * %d = %d' %(x, y, sum)
-print 'Running time is %.15f seconds.' % ((finish - start)/10000)
+print 'Running time is %.15f seconds.' % (finish - start)

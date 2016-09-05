@@ -53,4 +53,4 @@ calculate ended
 finish = clock()
 
 print 'Inversions Counts in %s : %d' % (origin, counts)
-print 'Running time is %.15f seconds.' % ((finish - start)/10000)
+print 'Running time is %.15f seconds.' % (finish - start)

@@ -8,7 +8,7 @@ import random
 
 # l_origin = [1, 2, 90, 0, 12, 8, 21, 23, 20]  # list to be sorted
 l_base = range(0, 1000000)
-l_origin = random.sample(l_base, 30)  # generate the ramdom list
+l_origin = random.sample(l_base, 3000)  # generate the ramdom list
 
 
 def merge(l1, l2):
@@ -56,4 +56,4 @@ finish = clock()
 
 print 'Before sorting : %r' % l_origin
 print 'After sorting : %r' % l_sorted
-print 'Running time is %.15f seconds.' % ((finish - start)/10000)
+print 'Running time is %.15f seconds.' % (finish - start)
